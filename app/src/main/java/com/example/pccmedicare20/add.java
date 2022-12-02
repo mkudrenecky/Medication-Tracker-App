@@ -54,8 +54,6 @@ public class add extends AppCompatActivity {
         dbut = (Button) findViewById(R.id.dbut);
         name = (EditText) findViewById(R.id.Name);
         dose = (EditText) findViewById(R.id.dose);
-        refdate = (EditText) findViewById(R.id.refdate);
-        sdate = (EditText) findViewById(R.id.sdate);
         note = (EditText) findViewById(R.id.notes);
         rem = (ToggleButton) findViewById(R.id.remtf);
         rrem = (ToggleButton) findViewById(R.id.rtf);
