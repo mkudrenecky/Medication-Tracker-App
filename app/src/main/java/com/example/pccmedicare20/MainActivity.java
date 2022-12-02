@@ -21,14 +21,12 @@ public class MainActivity extends AppCompatActivity {
 
         meds.add(aa);
 
-
         start = findViewById(R.id.start);
         start.setOnClickListener(new View.OnClickListener() {
             public void onClick(View v) {
                 show();//go to settings page
             }
         });
-
     }
 
     private void show(){

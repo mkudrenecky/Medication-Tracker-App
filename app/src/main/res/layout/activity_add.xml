@@ -198,16 +198,6 @@
         app:layout_constraintStart_toStartOf="@+id/textView14"
         app:layout_constraintTop_toTopOf="@+id/sub" />
 
-    <EditText
-        android:id="@+id/sdate"
-        android:layout_width="156dp"
-        android:layout_height="40dp"
-        android:ems="10"
-        android:inputType="textPersonName"
-        android:text="Year/Month/Day"
-        tools:layout_editor_absoluteX="88dp"
-        tools:layout_editor_absoluteY="8dp" />
-
     <Spinner
         android:id="@+id/rema"
         android:layout_width="86dp"
@@ -215,16 +205,6 @@
         app:layout_constraintBottom_toBottomOf="@+id/textView9"
         app:layout_constraintStart_toStartOf="@+id/remtf"
         app:layout_constraintTop_toTopOf="@+id/textView9" />
-
-    <EditText
-        android:id="@+id/refdate"
-        android:layout_width="151dp"
-        android:layout_height="50dp"
-        android:ems="10"
-        android:inputType="textPersonName"
-        android:text="Year/Month/Day"
-        tools:layout_editor_absoluteX="71dp"
-        tools:layout_editor_absoluteY="43dp" />
 
     <Spinner
         android:id="@+id/syear"

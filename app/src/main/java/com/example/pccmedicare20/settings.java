@@ -23,8 +23,6 @@ public class settings extends AppCompatActivity {
 
         gobackb.setOnClickListener(new View.OnClickListener() {
             public void onClick(View v) {
-
-
                 home();
             }
         });

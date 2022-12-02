@@ -36,7 +36,6 @@ public class show extends AppCompatActivity {
         tbut = findViewById(R.id.tbut);
         spinner1 = (Spinner) findViewById(R.id.spinner);
 
-
         Intent in = getIntent();
         meds = (ArrayList<String[]>) in.getSerializableExtra("xxx");// get curent list of meds
         String B = "";
@@ -44,7 +43,6 @@ public class show extends AppCompatActivity {
             B=B+"\n"+"- "+a[0]+" "+a[1]+" "+a[2];
         }
         a.setText(B);
-
 
         ArrayList<String> meds1 = new ArrayList<>();
         // meds.forEach((n) -> meds1.add(n[0]));
@@ -71,24 +69,18 @@ public class show extends AppCompatActivity {
             }
         });
 
-
-
         tbut.setOnClickListener(new View.OnClickListener() {
             public void onClick(View v) {
-
                 track();
-
-                //go to track page
             }
         });
+
         ebut.setOnClickListener(new View.OnClickListener() {
             public void onClick(View v) {
                String se= (String) spinner1.getSelectedItem();
                 ed(se);
             }
         });
-
-
 
     }
     private void add(){
@@ -99,7 +91,6 @@ public class show extends AppCompatActivity {
         inte.putExtra("xxx", meds);
         bundle.putString("op","add");
         inte.putExtras(bundle);
-
 
         startActivity(inte);
     }
@@ -128,7 +119,6 @@ public class show extends AppCompatActivity {
         // bundle.putString("me",me);
         inten.putExtras(bundle);
 
-
         startActivity(inten);
     }
     private void setings(){
@@ -140,7 +130,6 @@ public class show extends AppCompatActivity {
         // bundle.putString("op","ed");
         // bundle.putString("me",me);
         intente.putExtras(bundle);
-
 
         startActivity(intente);
     }
