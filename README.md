@@ -8,4 +8,4 @@ A project designed using Android Studio and Java to provide an interface to trac
 
 ### Demo
 
-<video src="AndroidUIdemo.mp4" controls title="Title"  width="500" height="600"></video>
+![Alt text](androidDemo.gif)
